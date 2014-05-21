@@ -1,1 +1,17 @@
-# Global snippets
+snippet mb
+	(mb `strftime("%Y-%m-%d")`)
+
+snippet rlog
+	Rails.logger.debug "${1:object}: #{${2:$1}.inspect}"
+
+snippet legend
+	Legend:
+	  Überschrift (space)
+	- für Notizen (wenn mehrzeigig, dann ein eingerückt)
+	> URLs (wenn eingreückt zu dem darüber liegenden Element gehörend)
+	$ für shell commands
+	# code snippets
+	• TODO (alt-ü)
+	√ abgeschlossenes TODO (alt-v)
+
+
